@@ -7,4 +7,11 @@
  Template: Divi
  Version: 1.0.0
 */
- 
+
+ .menu_planty .menu-item-98 {
+    background-color: #e0b9b4;
+ }
+
+ body .menu_planty .menu-item-98 a {
+    color: white !important;
+ }
