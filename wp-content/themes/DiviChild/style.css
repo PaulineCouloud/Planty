@@ -15,18 +15,29 @@
 }
 
  .menu_planty .menu-item-98 {
-    background-color: #e0b9b4;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 80px !important;
-    padding-right: 80px !important;
-  
-
+    background-color: #dc9f96;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    color: white !important;
  }
+
+ .menu_planty .menu-item-98:hover {
+  background-color: #c02e44;
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
 
  body .et_pb_menu ul li.menu-item-98 a {
     color: white !important;
  }
+
+ body .et_pb_menu ul li.menu-item-99:hover {
+  font-weight: 700;
+}
+
+.menu-item-admin-link:hover {
+  font-weight: 700;
+}
 
  .fluent_form_3 {
    width: 383px;
