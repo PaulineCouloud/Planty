@@ -15,3 +15,43 @@
  body .menu_planty .menu-item-98 a {
     color: white !important;
  }
+
+ .fluent_form_3 {
+   width: 383px;
+   font-size: 20px;
+   border-radius: 7px;
+   margin: auto;
+ }
+
+ .form-contact-name input, .contact-form-mail input {
+   height: 71px;
+   font-size : 20px;
+   color:black !important;
+ }
+
+ .contact-form-message textarea {
+  height : 237px;
+  font-size : 20px;
+  color:black !important;
+ }
+
+ .button-submit {
+  height: 55px;
+ }
+
+ .contact-form-message:after {
+  width: 210px;
+  height: 290px;
+  background-image: url(/wp-content/uploads/2024/02/Group-16.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  margin-top: -136px;
+  margin-left: -102px;
+  z-index: 0;
+}
+
+.contact-form-message-textarea {
+  z-index: 50;
+  position: relative;
+}
