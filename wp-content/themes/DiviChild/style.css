@@ -14,6 +14,10 @@
   margin: 0 !important;
 }
 
+
+
+
+
  .menu_planty .menu-item-98 {
     background-color: #dc9f96;
     padding-left: 60px !important;
@@ -21,22 +25,27 @@
     color: white !important;
  }
 
+ body .et_pb_menu ul li.menu-item-98 a, body .et_pb_menu_0_tb_header.et_pb_menu ul li.menu-item-98.current-menu-item a {
+  color: white !important;
+}
+
  .menu_planty .menu-item-98:hover {
   background-color: #c02e44;
-  padding-left: 60px !important;
-  padding-right: 60px !important;
-}
-
- body .et_pb_menu ul li.menu-item-98 a {
-    color: white !important;
  }
 
- body .et_pb_menu ul li.menu-item-99:hover {
-  font-weight: 700;
-}
+ .menu_planty .menu-item-98:hover a {
+  opacity: 1;
+ }
 
-.menu-item-admin-link:hover {
+
+
+ body .et_pb_menu ul li:not(.menu-item-98):hover a{
+  font-size: 13.8px;
   font-weight: 700;
+ }
+
+ body .et_pb_menu ul#menu-header li a {
+  transition: none !important;
 }
 
  .fluent_form_3 {
