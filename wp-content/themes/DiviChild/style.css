@@ -85,3 +85,89 @@
 }
 
 /************************* Formulaire de commande *************************/
+
+.fluent_form_4 {
+  color:white;
+}
+
+.option_commande input {
+width: 39px !important;
+height: 56px;
+display: flex;
+justify-content: center;
+border-radius: 0 !important;
+}
+
+.option_commande input::placeholder {
+color: black !important;
+text-align: center;
+}
+
+.container_gouts {
+  gap: 30px !important;
+  border-bottom: solid 1px;
+  margin-bottom: 53px;
+}
+
+.option_commande .ff-el-input--content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.titre_h2 h2 {
+  color: white !important;
+  text-align: center;
+  font-weight: 800 !important;
+  font-size: 38px !important;
+  padding-bottom: 60px;
+  border-bottom: solid 1px;
+}
+
+.titre_h3 h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.ff_champs_rencontre .ff-el-input--content input {
+  width: 383px !important;
+  height: 71px !important;
+  border-radius: 7px !important;
+  padding: 0px !important;
+}
+
+.ff-t-container .ff-column-container .ff_columns_total_2 {
+  display: flex;
+  gap : 90px
+}
+
+form.fluent_form_4 .wpf_has_custom_css.ff-btn-submit {
+  height: 59px;
+  opacity: 1;
+}
+
+form.fluent_form_4 .wpf_has_custom_css.ff-btn-submit:hover {
+  transition: none;
+  opacity: 1;
+}
+
+.form_informations .ff-t-cell.ff-t-column-1{
+  border-right: 1px solid white;
+  padding-right: 45px;
+  margin-right: 45px;
+
+}
+
+.form_informations {
+  gap: 0 !important;
+}
+
+.ff-el-group.ff_champs_rencontre.ff_lastchamps {
+  margin-bottom: 0 !important;
+}
+
+.ff-el-group.ff-text-center.button-submit.ff_submit_btn_wrapper {
+  margin-top: 44px;
+}
