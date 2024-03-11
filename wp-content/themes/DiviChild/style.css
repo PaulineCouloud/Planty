@@ -8,15 +8,13 @@
  Version: 1.0.0
 */
 
+/************************* Header *************************/
+
 #menu-header{
   display: flex;
   gap: 40px;
   margin: 0 !important;
 }
-
-
-
-
 
  .menu_planty .menu-item-98 {
     background-color: #dc9f96;
@@ -37,8 +35,6 @@
   opacity: 1;
  }
 
-
-
  body .et_pb_menu ul li:not(.menu-item-98):hover a{
   font-size: 13.8px;
   font-weight: 700;
@@ -47,7 +43,7 @@
  body .et_pb_menu ul#menu-header li a {
   transition: none !important;
 }
-
+/************************* Formulaire Nous Rencontrer *************************/
  .fluent_form_3 {
    width: 383px;
    font-size: 20px;
@@ -87,3 +83,5 @@
   z-index: 50;
   position: relative;
 }
+
+/************************* Formulaire de commande *************************/
