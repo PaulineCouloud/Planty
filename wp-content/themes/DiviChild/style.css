@@ -84,6 +84,7 @@
   position: relative;
 }
 
+
 /************************* Formulaire de commande *************************/
 
 .fluent_form_4 {
@@ -171,3 +172,90 @@ form.fluent_form_4 .wpf_has_custom_css.ff-btn-submit:hover {
 .ff-el-group.ff-text-center.button-submit.ff_submit_btn_wrapper {
   margin-top: 44px;
 }
+
+@media screen and (max-width: 1200px) {
+  .fleur_rencontre{
+      background-size: 127px !important;
+      background-position: left 7% top 0 !important;
+  }
+}
+
+    /************************* Responsive tablette *************************/
+
+    @media screen and (max-width: 980px) {
+      .menu_planty .menu-item-98 {
+        background-color: #dc9f96;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        color: white !important;}
+      
+
+      .ff_champs_rencontre .ff-el-input--content input {
+        width: 100% !important;
+        height: 71px !important;
+      }
+
+    .titre_h3 h3 {
+      font-size: 25px;
+    }
+  }
+/************************* Responsive mobile *************************/
+/*** Header ***/
+
+@media screen and (max-width: 768px) {
+  
+.menu_planty .menu-item-98 {
+  background-color: #dc9f96;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  color: white !important;}
+
+
+/*** Nous rencontrer ***/
+
+  .fluent_form_3 {
+    width: 250px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin: auto; }
+
+    .contact-form-message:after {
+      width: 110px;
+      height: 260px;
+      background-image: url(/wp-content/uploads/2024/02/Group-16.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      position: absolute;
+      margin-top: -69px;
+      margin-left: -51px;
+      z-index: 0;
+    }
+
+/*** Commander ***/
+.titre_h2 h2 {
+  color: white !important;
+  text-align: center;
+  font-weight: 800 !important;
+  font-size: 25px !important;
+  padding-bottom: 60px;
+  border-bottom: solid 1px;
+}
+
+.ff-el-group.ff-custom_html.titre_h3 {
+  margin-top: 55px;
+}
+
+.img-gouts {
+  display: flex;
+  justify-content: center;
+}
+
+.form_informations .ff-t-cell.ff-t-column-1 {
+  border-right: none;
+  padding-right: 0;
+  margin-right: 0;
+  border-bottom: solid white 1px;
+  padding-bottom: 50px;
+}
+
+  }
