@@ -169,7 +169,8 @@ form.fluent_form_4 .wpf_has_custom_css.ff-btn-submit:hover {
 .ff-el-group.ff_champs_rencontre.ff_lastchamps {
   margin-bottom: 0 !important;
 }
-
+/************************* Responsive
+ *************************/
 .ff-el-group.ff-text-center.button-submit.ff_submit_btn_wrapper {
   margin-top: 44px;
 }
